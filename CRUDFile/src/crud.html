@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Cosmetic website Design </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- navigations -->
+<section id="header" class="header">
+<a href="home.html" class="logo"><i class="fas fa-female"></i> NYS Cosmetics</a>
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="index.html">Brand</a>
+        <a href="category.html">Category</a>
+    </nav>
+<div class="icons">
+    <a href="crud.html" class="fas fa-heart"></a>
+</div>
+</section>
+<!--CRUD -->
+    <div class="mainWrapper">
+      <h3>Top 5 Makeup List!</h3>
+      <form>
+        <div class="form-group">
+          <label>Enter your name: </label>
+          <input id="fileName" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Makeup List</label>
+          <textarea id="fileContents" class="form-control" rows="5"></textarea>
+        </div>
+      </form>
+      <button id="btnCreate" class="btn btn-default">Create</button>
+      <button id="btnRead" class="btn btn-default">Read</button>
+      <button id="btnUpdate" class="btn btn-default">Update</button>
+      <button id="btnDelete" class="btn btn-default">Delete</button><br>
+      <button id="backButton" onclick="goBack()">Back</button>
+    </div>
+    <script src="main.js">
+    </script>
+<!-- footer -->
+<footer>
+  <div class = "social-links">
+    <a href = "https://www.facebook.com/christina.caroline.52/"><i class = "fab fa-facebook-f"></i></a>
+    <a href = "https://twitter.com/anisizyanaa"><i class = "fab fa-twitter"></i></a>
+    <a href = "https://www.instagram.com/anisizyana/"><i class = "fab fa-instagram"></i></a>
+  </div>
+  <span>By Ms Anis Izyana Zamri</span>
+</footer>
+</div>
+</body>
+</html>
